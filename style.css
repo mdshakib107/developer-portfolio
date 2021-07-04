@@ -5,16 +5,20 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display:flex
 }
 .half-width{
    width: 50%;
    padding-left: 5%;
    padding-bottom: 5%;
+   border-radius: 5px;
 }
 .half-width img{
    width: 80%;
@@ -39,3 +43,27 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+#bg{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#box-sad_1{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    border-left: 5px solid;
+    box-shadow: 10px 10px 20px gray;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+    
+}
+#box-sad_2{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    box-shadow: 10px 10px 20px gray;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, green);
+    border-image-slice: 1;
+   
